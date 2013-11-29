@@ -1,3 +1,2 @@
-figlet -ct -f calgphy2 "Hello Steven"
-read -n 1 -s
-fortune | cowthink
+figlet -ct -f fraktur "Hello Steven"
+fortune wvh | cowthink -f vader-koala

@@ -9,6 +9,7 @@ alias ls='ls --color=auto'
 
 PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w\$\[\033[00m\] '
 
+alias music='ncmpcpp'
 alias pacman='sudo pacman'
 alias aura='sudo aura'
 alias ..='cd ..'
