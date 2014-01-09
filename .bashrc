@@ -22,7 +22,7 @@ alias archey='archey3'
 alias mkdir='mkdir -p'
 
 # SSH aliases
-alias galadriel='ssh stoye@162.243.29.204'
+alias galadriel='ssh galadriel.stevetoye.com'
 alias ccis='ssh login.ccs.neu.edu'
 alias hackhouse='ssh hackhouse@hackmedia.hackhouse.io'
 
