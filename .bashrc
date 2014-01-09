@@ -25,6 +25,7 @@ alias mkdir='mkdir -p'
 alias galadriel='ssh galadriel.stevetoye.com'
 alias ccis='ssh login.ccs.neu.edu'
 alias hackhouse='ssh hackhouse@hackmedia.hackhouse.io'
+alias deagol='ssh deagol.stevetoye.com'
 
 export PATH=/home/stoye/scripts:$PATH
 
