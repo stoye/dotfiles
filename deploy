@@ -1,8 +1,28 @@
 #!/bin/bash
 
-cp .* /home/stoye/
+cp /home/stoye/dotfiles/.* /home/stoye/
 
 cp pacman.conf /etc/pacman.conf
+
+cp /home/stoye/dotfiles/welcome /usr/bin/welcome
+
+FIGLET=$(pacman -Qs figlet)
+if [ -n "$FIGLET" ]
+    then echo "figlet installed"
+    else pacman -S --noconfirm figlet
+fi
+
+COWSAY=$(pacman -Qs cowsay)
+if [ -n "$COWSAY" ]
+    then echo "cowsay installed"
+    else pacman -S --noconfirm cowsay
+fi
+
+YAJL=$(pacman -Qs yajl)
+if [ -n "$YAJL" ]
+    then echo "yajl installed"
+    else pacman -S --noconfirm yajl
+fi
 
 WGET=$(pacman -Qs wget)
 if [ -n "$WGET" ]
@@ -13,13 +33,13 @@ fi
 PACKAGE_QUERY=$(pacman -Qs package-query)
 if [ -n "$PACKAGE_QUERY" ]
     then echo "package-query installed"
-    else wget https://aur.archlinux.org/packages/pa/package-query/package-query.tar.gz -O /home/stoye/package-query.tar.gz && tar -xf /home/stoye/package-query.tar.gz && cd /home/stoye/package-query && makepkg && pacman -U *.xz
+    else wget https://aur.archlinux.org/packages/pa/package-query/package-query.tar.gz -O /home/stoye/package-query.tar.gz && tar -xf /home/stoye/package-query.tar.gz && cd /home/stoye/package-query && makepkg --asroot && pacman -U *.xz
 fi
 
 YAOURT=$(pacman -Qs yaourt)
 if [ -n "$YAOURT" ]
     then echo "yaourt installed"
-    else wget https://aur.archlinux.org/packages/pa/yaourt/yaourt.tar.gz -O /home/stoye/yaourt.tar.gz && tar -xf /home/stoye/yaourt.tar.gz && cd /home/stoye/yaourt && makepkg && pacman -U *.xz
+    else wget https://aur.archlinux.org/packages/ya/yaourt/yaourt.tar.gz -O /home/stoye/yaourt.tar.gz && tar -xf /home/stoye/yaourt.tar.gz && cd /home/stoye/yaourt && makepkg --asroot && pacman -U *.xz
 fi
 
 AURA=$(pacman -Qs aura)
@@ -27,3 +47,27 @@ if [ -n "$AURA" ]
     then echo "aura installed"
     else yaourt -S --noconfirm aura
 fi
+
+FORTUNE=$(pacman -Qs fortune-mod)
+if [ -n "$FORTUNE" ]
+    then echo "fortune-mod installed"
+    else pacman -S --noconfirm fortune-mod
+fi
+
+FIGLET_FONTS=$(pacman -Qs figlet-fonts)
+if [ -n "$FIGLET_FONTS" ]
+    then echo "figlet-fonts installed"
+    else aura -A --noconfirm figlet-fonts
+fi
+
+GIT=$(pacman -Qs git)
+if [ -n "$GIT" ]
+    then echo "git installed"
+    else pacman -S --noconfirm git
+fi
+
+if [ ! -d "/home/stoye/102fortune" ]
+    then git clone https://github.com/stoye/102fortune.git /home/stoye/102fortune
+fi
+
+cd /home/stoye/102fortune && ./install
