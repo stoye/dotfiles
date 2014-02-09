@@ -1,0 +1,29 @@
+#!/bin/bash
+
+cp .* /home/stoye/
+
+cp pacman.conf /etc/pacman.conf
+
+WGET=$(pacman -Qs wget)
+if [ -n "$WGET" ]
+    then echo "wget installed"
+    else pacman -S --noconfirm wget
+fi
+
+PACKAGE_QUERY=$(pacman -Qs package-query)
+if [ -n "$PACKAGE_QUERY" ]
+    then echo "package-query installed"
+    else wget https://aur.archlinux.org/packages/pa/package-query/package-query.tar.gz -O /home/stoye/package-query.tar.gz && tar -xf /home/stoye/package-query.tar.gz && cd /home/stoye/package-query && makepkg && pacman -U *.xz
+fi
+
+YAOURT=$(pacman -Qs yaourt)
+if [ -n "$YAOURT" ]
+    then echo "yaourt installed"
+    else wget https://aur.archlinux.org/packages/pa/yaourt/yaourt.tar.gz -O /home/stoye/yaourt.tar.gz && tar -xf /home/stoye/yaourt.tar.gz && cd /home/stoye/yaourt && makepkg && pacman -U *.xz
+fi
+
+AURA=$(pacman -Qs aura)
+if [ -n "$AURA" ]
+    then echo "aura installed"
+    else yaourt -S --noconfirm aura
+fi
