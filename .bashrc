@@ -20,6 +20,7 @@ alias hackmusic='ncmpcpp -h hackmedia.hackhouse.io'
 alias gits='git status'
 alias archey='archey3'
 alias mkdir='mkdir -p'
+alias mysql='mysql -p'
 
 # SSH aliases
 alias galadriel='ssh galadriel.stevetoye.com'

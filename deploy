@@ -6,18 +6,6 @@ cp pacman.conf /etc/pacman.conf
 
 cp /home/stoye/dotfiles/welcome /usr/bin/welcome
 
-FIGLET=$(pacman -Qs figlet)
-if [ -n "$FIGLET" ]
-    then echo "figlet installed"
-    else pacman -S --noconfirm figlet
-fi
-
-COWSAY=$(pacman -Qs cowsay)
-if [ -n "$COWSAY" ]
-    then echo "cowsay installed"
-    else pacman -S --noconfirm cowsay
-fi
-
 YAJL=$(pacman -Qs yajl)
 if [ -n "$YAJL" ]
     then echo "yajl installed"
@@ -48,16 +36,22 @@ if [ -n "$AURA" ]
     else yaourt -S --noconfirm aura
 fi
 
+FIGLET=$(pacman -Qs figlet)
+if [ -n "$FIGLET" ]
+    then echo "figlet installed"
+    else pacman -S --noconfirm figlet
+fi
+
+COWSAY=$(pacman -Qs cowsay)
+if [ -n "$COWSAY" ]
+    then echo "cowsay installed"
+    else pacman -S --noconfirm cowsay
+fi
+
 FORTUNE=$(pacman -Qs fortune-mod)
 if [ -n "$FORTUNE" ]
     then echo "fortune-mod installed"
     else pacman -S --noconfirm fortune-mod
-fi
-
-FIGLET_FONTS=$(pacman -Qs figlet-fonts)
-if [ -n "$FIGLET_FONTS" ]
-    then echo "figlet-fonts installed"
-    else aura -A --noconfirm figlet-fonts
 fi
 
 GIT=$(pacman -Qs git)
@@ -69,5 +63,6 @@ fi
 if [ ! -d "/home/stoye/102fortune" ]
     then git clone https://github.com/stoye/102fortune.git /home/stoye/102fortune
 fi
+
 
 cd /home/stoye/102fortune && ./install
