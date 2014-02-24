@@ -28,6 +28,8 @@ alias ccis='ssh login.ccs.neu.edu'
 alias hackhouse='ssh hackhouse@hackmedia.hackhouse.io'
 alias deagol='ssh deagol.stevetoye.com'
 alias turtles='ssh turtles.safari4uvet.com'
+alias imadeit='ssh imadeit.nu'
+alias smeagol='ssh smeagol.stevetoye.com -p 23'
 
 export PATH=/home/stoye/scripts:$PATH
 
