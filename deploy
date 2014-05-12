@@ -1,10 +1,10 @@
 #!/bin/bash
 
-cp /home/stoye/dotfiles/.* /home/stoye/
+cp .* /home/stoye/
 
 cp pacman.conf /etc/pacman.conf
 
-cp /home/stoye/dotfiles/welcome /usr/bin/welcome
+cp welcome /usr/bin/welcome
 
 YAJL=$(pacman -Qs yajl)
 if [ -n "$YAJL" ]
