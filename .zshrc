@@ -13,11 +13,11 @@ ZSH_THEME="agnoster"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias emacs='emacs -nw'
-alias music='ncmpcpp -p 6601'
+alias music='ncmpcpp -p 6600'
 
 # SSH ALIASES
 alias ccis='ssh login.ccs.neu.edu'
-alias galadriel='ssh box.derslackha.us'
+alias galadriel='ssh 162.243.29.204'
 alias turtles='ssh turtles.safari4uvet.com'
 
 # Uncomment the following line to use case-sensitive completion.
@@ -60,6 +60,10 @@ alias turtles='ssh turtles.safari4uvet.com'
 plugins=(git archlinux common-aliases compleat git-extras git-flow taskwarrior knife)
 
 source $ZSH/oh-my-zsh.sh
+
+# Disable Virtual_Env_Prompt
+export VIRTUAL_ENV_DISABLE_PROMPT=1
+source /usr/bin/virtualenvwrapper.sh
 
 # User configuration
 
