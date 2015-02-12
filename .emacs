@@ -10,11 +10,35 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+(setq column-number-mode t)
+
+;; python mode
 (autoload 'python-mode "python-mode.el" "Python mode." t)
 (setq auto-mode-alist (append '(("/*.\.py$" . python-mode)) auto-mode-alist))
-(setq column-number-mode t)
+
+;; yaml mode
 (require 'yaml-mode)
 (setq auto-mode-alist (append '(("/*.\.yaml$" . yaml-mode)) auto-mode-alist))
+
+;; markdown mode
 (autoload 'markdown-mode "markdown-mode" "Markdown mode" t)
 (setq auto-mode-alist (cons '("\\.md\\'" . markdown-mode) auto-mode-alist))
 (setq auto-mode-alist (cons '("\\.markdown\\'" . markdown-mode) auto-mode-alist))
+
+;; jade mode
+(add-to-list 'load-path "~/.emacs.d/vendor/jade-mode")
+(require 'sws-mode)
+(require 'jade-mode)
+(setq auto-mode-alist (cons '("\\.styl$" . sws-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("\\.jade$" . jade-mode) auto-mode-alist))
+
+;; yasnippet
+(add-to-list 'load-path "~/.emacs.d/plugins/yasnippet")
+(require 'yasnippet)
+(yas-global-mode 1)
+
+;; web mode
+(add-to-list 'load-path "~/.emacs.d/plugins")
+(require 'web-mode)
+(setq auto-mode-alist (cons '("\\.html$" . web-mode) auto-mode-alist))
