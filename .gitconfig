@@ -2,7 +2,7 @@
     ui = auto
 
 [core]
-    editor = emacs -nw
+    editor = vim
 
 [user]
 	email = steve.toye@gmail.com
