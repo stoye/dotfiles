@@ -61,13 +61,16 @@ plugins=(git archlinux common-aliases compleat git-extras git-flow taskwarrior k
 
 source $ZSH/oh-my-zsh.sh
 
-# Disable Virtual_Env_Prompt
+# Disable Virtual_Env_Prompt and source venvwrapper
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 source /usr/bin/virtualenvwrapper.sh
 
+# Add android tools to the path
+export PATH=~/Android/Sdk/tools:$PATH
+
 # User configuration
 
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/vendor_perl:/usr/bin/core_perl"
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/vendor_perl:/usr/bin/core_perl:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
