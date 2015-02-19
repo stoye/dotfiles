@@ -19,6 +19,7 @@ alias music='ncmpcpp -p 6600'
 alias ccis='ssh login.ccs.neu.edu'
 alias galadriel='ssh 162.243.29.204'
 alias turtles='ssh turtles.safari4uvet.com'
+alias elrond='ssh 192.241.255.106'
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
