@@ -63,7 +63,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Disable Virtual_Env_Prompt
 export VIRTUAL_ENV_DISABLE_PROMPT=1
-source /usr/bin/virtualenvwrapper.sh
+source /usr/local/bin/virtualenvwrapper.sh
 
 # User configuration
 
