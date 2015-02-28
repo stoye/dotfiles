@@ -311,7 +311,12 @@ settings = {
   core = { real_name = "Unknown"; user_name = "stoye"; nick = "stoye"; };
   "fe-text" = { actlist_sort = "refnum"; };
   "fe-common/core" = { print_active_channel = "yes"; theme = "initrd"; };
-  "perl/core/scripts" = { awl_shared_sbar = "OFF"; awl_viewer = "no"; };
+  "perl/core/scripts" = {
+    awl_shared_sbar = "OFF";
+    awl_viewer = "no";
+    awl_hide_data = "0";
+    fancy_abbrev = "head";
+  };
 };
 ignores = ( { level = "MODES"; servertag = "slack"; } );
 windows = {
@@ -430,6 +435,6 @@ windows = {
   };
 };
 mainwindows = {
-  1 = { first_line = "35"; lines = "31"; };
+  1 = { first_line = "35"; lines = "30"; };
   5 = { first_line = "1"; lines = "34"; };
 };
