@@ -13,7 +13,6 @@ ZSH_THEME="agnoster"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias emacs='emacs -nw'
-alias music='ncmpcpp -p 6600'
 
 # SSH ALIASES
 alias ccis='ssh login.ccs.neu.edu'
@@ -58,7 +57,7 @@ alias elrond='ssh 192.241.255.106'
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git archlinux common-aliases compleat git-extras git-flow taskwarrior knife)
+plugins=(git common-aliases compleat git-extras git-flow)
 
 source $ZSH/oh-my-zsh.sh
 
