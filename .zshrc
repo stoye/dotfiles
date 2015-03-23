@@ -20,6 +20,9 @@ alias galadriel='ssh 162.243.29.204'
 alias turtles='ssh turtles.safari4uvet.com'
 alias elrond='ssh 192.241.255.106'
 
+# MySQL aliases
+alias mysql='/usr/local/mysql/bin/mysql'
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -61,6 +64,9 @@ plugins=(git common-aliases compleat git-extras git-flow)
 
 source $ZSH/oh-my-zsh.sh
 
+# JAVA_HOME
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/contents/home
+
 # Disable Virtual_Env_Prompt and source venvwrapper
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 source /usr/bin/virtualenvwrapper.sh
@@ -70,7 +76,7 @@ export PATH=~/Android/Sdk/tools:$PATH
 
 # User configuration
 
-export PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/vendor_perl:/usr/bin/core_perl:$PATH
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/apache-maven-3.3.1/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
