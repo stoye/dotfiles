@@ -69,7 +69,7 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/contents/home
 
 # Disable Virtual_Env_Prompt and source venvwrapper
 export VIRTUAL_ENV_DISABLE_PROMPT=1
-source /usr/bin/virtualenvwrapper.sh
+source /usr/local/bin/virtualenvwrapper.sh
 
 # Add android tools to the path
 export PATH=~/Android/Sdk/tools:$PATH
