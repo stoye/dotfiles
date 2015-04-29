@@ -69,6 +69,9 @@ source /usr/bin/virtualenvwrapper.sh
 # Add android tools to the path
 export PATH=~/Android/Sdk/tools:$PATH
 
+# Add Ruby gems to the path
+export PATH=~/.gem/ruby/2.2.0/bin:$PATH
+
 # User configuration
 
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/vendor_perl:/usr/bin/core_perl:$PATH
