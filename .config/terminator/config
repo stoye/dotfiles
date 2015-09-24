@@ -1,0 +1,20 @@
+[global_config]
+  window_state = maximise
+[keybindings]
+[profiles]
+  [[default]]
+    use_system_font = False
+    background_darkness = 0.78
+    background_type = transparent
+    background_image = None
+    font = Monospace 10
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]

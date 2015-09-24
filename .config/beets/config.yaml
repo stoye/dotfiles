@@ -1,0 +1,24 @@
+directory: ~/Media/music
+library: ~/music/musiclibrary.blb
+asciify_paths: yes
+plugins: fromfilename fetchart embedart lyrics lastgenre mpdstats scrub bpd missing web
+
+import:
+  move: yes
+  timid: yes
+  log: ~/music/import.log
+
+paths:
+  default: $albumartist/$album%aunique{}/$track $title
+  singleton: $artist/Non-Album/$title
+  comp: Compilations/$album%aunique{}/$track $title
+
+fetchart:
+  cautious: true
+
+lyrics:
+  force: yes
+  sources: google lyricwiki lyrics.com
+
+mpd:
+  music_directory: ~/Music

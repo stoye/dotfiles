@@ -1,0 +1,8 @@
+[Unit]
+Description=Beets Music Player Daemon
+
+[Service]
+ExecStart=/usr/bin/beet bpd
+
+[Install]
+WantedBy=default.target

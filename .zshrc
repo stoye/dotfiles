@@ -13,7 +13,8 @@ ZSH_THEME="agnoster"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias emacs='emacs -nw'
-alias music='ncmpcpp -p 6600'
+alias music='ncmpcpp -p 6601'
+alias hackmusic='ncmpcpp -h hackmedia.local -p 6600'
 
 # SSH ALIASES
 alias ccis='ssh login.ccs.neu.edu'

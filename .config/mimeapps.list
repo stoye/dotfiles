@@ -1,0 +1,10 @@
+[Default Applications]
+application/pdf=google-chrome-beta.desktop
+image/png=ristretto.desktop
+image/jpeg=eog.desktop
+
+[Added Associations]
+application/pdf=google-chrome-beta.desktop;
+image/png=ristretto.desktop;google-chrome-beta.desktop;
+image/jpeg=eog.desktop;google-chrome-beta.desktop;
+video/mp4=vlc.desktop;
