@@ -1,2 +1,2 @@
-figlet -ct -f fraktur "Hello Steven"
-fortune wvh | cowthink -f vader-koala
+figlet -ct -f fraktur "Hello Steven" | lolcat
+fortune wvh | cowthink -f vader-koala | lolcat
