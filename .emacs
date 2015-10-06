@@ -37,8 +37,3 @@
 (add-to-list 'load-path "~/.emacs.d/plugins/yasnippet")
 (require 'yasnippet)
 (yas-global-mode 1)
-
-;; web mode
-(add-to-list 'load-path "~/.emacs.d/plugins")
-(require 'web-mode)
-(setq auto-mode-alist (cons '("\\.html$" . web-mode) auto-mode-alist))
