@@ -93,3 +93,6 @@ export PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/vendor_perl:/usr/bi
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
+
+# NVM stuffs
+source /usr/share/nvm/init-nvm.sh
