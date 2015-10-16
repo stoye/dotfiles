@@ -7,3 +7,6 @@
 [submodule ".emacs.d/vendor/jade-mode"]
 	path = .emacs.d/vendor/jade-mode
 	url = git@github.com:brianc/jade-mode
+[submodule ".emacs.d/plugins/scss-mode"]
+	path = .emacs.d/plugins/scss-mode
+	url = https://github.com/antonj/scss-mode

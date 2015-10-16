@@ -37,3 +37,9 @@
 (add-to-list 'load-path "~/.emacs.d/plugins/yasnippet")
 (require 'yasnippet)
 (yas-global-mode 1)
+
+;; sass/scss
+(setq exec-path (cons (expand-file-name "~/.gem/ruby/1.8/bin") exec-path))
+(add-to-list 'load-path "~/.emacs.d/plugins/scss-mode")
+(autoload 'scss-mode "scss-mode")
+(add-to-list 'auto-mode-alist '("\\.scss\\'" . scss-mode))
