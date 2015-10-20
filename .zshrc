@@ -96,3 +96,6 @@ export PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/vendor_perl:/usr/bi
 
 # NVM stuffs
 source /usr/share/nvm/init-nvm.sh
+
+# OPAM configuration
+. /home/stoye/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
