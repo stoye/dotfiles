@@ -12,6 +12,7 @@ ZSH_THEME="agnoster"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias sudo='sudo '
 alias emacs='emacs -nw'
 alias music='ncmpcpp -p 6601'
 alias hackmusic='ncmpcpp -h hackmedia.local -p 6600'
@@ -19,7 +20,6 @@ alias hackmusic='ncmpcpp -h hackmedia.local -p 6600'
 # SSH ALIASES
 alias ccis='ssh login.ccs.neu.edu'
 alias galadriel='ssh 162.243.29.204'
-alias turtles='ssh turtles.safari4uvet.com'
 alias elrond='ssh 45.55.167.226'
 
 # Uncomment the following line to use case-sensitive completion.
