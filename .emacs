@@ -18,6 +18,7 @@
 (setq auto-mode-alist (append '(("/*.\.py$" . python-mode)) auto-mode-alist))
 
 ;; yaml mode
+(add-to-list 'load-path "~/.emacs.d/plugins/yaml-mode")
 (require 'yaml-mode)
 (setq auto-mode-alist (append '(("/*.\.yaml$" . yaml-mode)) auto-mode-alist))
 
