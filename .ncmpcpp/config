@@ -11,3 +11,5 @@ mpd_music_dir = "/home/stoye/Media/Music"
 
 playlist_display_mode = "columns"
 mouse_support = "no"
+
+display_bitrate = "yes"
