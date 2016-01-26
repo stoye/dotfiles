@@ -1,10 +1,19 @@
 [Default Applications]
 application/pdf=google-chrome-beta.desktop
 image/png=ristretto.desktop
-image/jpeg=eog.desktop
+image/jpeg=ristretto.desktop
+image/gif=ristretto.desktop
 
 [Added Associations]
 application/pdf=google-chrome-beta.desktop;
 image/png=ristretto.desktop;google-chrome-beta.desktop;
-image/jpeg=eog.desktop;google-chrome-beta.desktop;
+image/jpeg=ristretto.desktop;google-chrome-beta.desktop;eog.desktop;
 video/mp4=vlc.desktop;
+audio/mpeg=vlc.desktop;
+video/x-ms-wmv=vlc.desktop;
+video/webm=vlc.desktop;
+video/x-msvideo=vlc.desktop;
+video/mpeg=vlc.desktop;
+video/x-matroska=vlc.desktop;
+image/gif=ristretto.desktop;wine-extension-gif.desktop;
+video/quicktime=vlc.desktop;

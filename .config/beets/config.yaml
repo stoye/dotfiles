@@ -1,5 +1,5 @@
-directory: ~/Media/music
-library: ~/music/musiclibrary.blb
+directory: ~/Media/new-beets-music/music
+library: ~/Media/new-beets-music/beets-lib.db
 asciify_paths: yes
 plugins: fromfilename fetchart embedart lyrics lastgenre mpdstats scrub bpd missing web
 
@@ -21,4 +21,4 @@ lyrics:
   sources: google lyricwiki lyrics.com
 
 mpd:
-  music_directory: ~/Music
+  music_directory: ~/music
