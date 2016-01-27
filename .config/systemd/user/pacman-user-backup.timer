@@ -1,0 +1,9 @@
+[Unit]
+Description=Update pacman and cower package lists on boot and every 3 hours
+
+[Timer]
+OnBootSec=15min
+OnUnitActiveSec=3h
+
+[Install]
+WantedBy=timers.target

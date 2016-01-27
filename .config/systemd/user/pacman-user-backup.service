@@ -1,0 +1,6 @@
+[Unit]
+Description=Pacman and Cower package list generation scripts
+
+[Service]
+Type=oneshot
+ExecStart=/home/stoye/dotfiles/update-lists.sh
