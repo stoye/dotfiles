@@ -78,7 +78,7 @@ irssi
 jdk8-openjdk
 jfsutils
 jshon
-keepass
+keepassx2
 keybase
 less
 lib32-libxxf86vm
@@ -130,6 +130,7 @@ nvidia-libgl
 ocaml
 openssh
 opus
+p7zip
 pacman
 patch
 pavucontrol
@@ -182,6 +183,7 @@ thunar-volman
 tinyxml
 tmux
 transcode
+transmission-cli
 transmission-qt
 tree
 tumbler
