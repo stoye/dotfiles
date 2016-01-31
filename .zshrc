@@ -65,6 +65,10 @@ source $ZSH/oh-my-zsh.sh
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 source /usr/local/bin/virtualenvwrapper.sh
 
+# source NVM
+export NVM_DIR="$HOME/.nvm"
+source ~/.nvm/nvm.sh
+
 # User configuration
 
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/vendor_perl:/usr/bin/core_perl:$PATH
