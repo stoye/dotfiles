@@ -3,10 +3,12 @@ accountsservice
 autoconf
 automake
 bash
+bc
 beets
 bind-tools
 binutils
 bison
+bmon
 boost
 bzip2
 bzr
@@ -19,6 +21,7 @@ coreutils
 cowsay
 cronie
 cryptsetup
+cuetools
 device-mapper
 dhcpcd
 dialog
@@ -37,6 +40,7 @@ fakeroot
 ffmpeg-compat
 figlet
 file
+file-roller
 filesystem
 findutils
 flex
@@ -45,10 +49,13 @@ garcon
 gawk
 gcc
 gcc-libs
+gdm
 gettext
 git
 glew
 glibc
+gmpc
+gnome-calculator
 gnome-common
 gnome-do
 gnome-doc-utils
@@ -57,8 +64,12 @@ gobject-introspection
 gptfdisk
 grep
 groff
+gsmartcontrol
 gst-libav
 gst-plugins-good
+gst-python
+gstreamer0.10-bad-plugins
+gstreamer0.10-ffmpeg
 gtk-engines
 gtk-xfce-engine
 gvfs
@@ -66,9 +77,13 @@ gzip
 handbrake
 hardening-wrapper
 harfbuzz-icu
+help2man
 htop
 hunspell
 icu
+id3
+id3v2
+iftop
 inetutils
 intltool
 iperf3
@@ -80,7 +95,9 @@ jfsutils
 jshon
 keepassx2
 keybase
+kid3-qt
 less
+letsencrypt
 lib32-libxxf86vm
 libcec
 libdbusmenu-glib
@@ -107,6 +124,7 @@ mdadm
 memtest86+
 mkvtoolnix-cli
 mkvtoolnix-gui
+mopidy
 mpd
 mplayer
 mumble
@@ -145,10 +163,14 @@ procps-ng
 psmisc
 pulseaudio
 pulseaudio-alsa
+python-cairo
 python-dbus
+python-distutils-extra
 python-gobject
+python-pexpect
 python-pip
 python-pyside
+python2-feedparser
 python2-gconf
 python2-mpd
 python2-pexpect
@@ -156,6 +178,7 @@ python2-pip
 python2-requests
 python2-requests-oauthlib
 python2-xdg
+pywebkitgtk
 re2c
 redshift
 refind-efi
@@ -169,7 +192,9 @@ screenfetch
 sdl_mixer
 sed
 shadow
+smartmontools
 snappy
+soundconverter
 speech-dispatcher
 sudo
 swig
@@ -187,6 +212,7 @@ transmission-cli
 transmission-qt
 tree
 tumbler
+unzip
 usbutils
 util-linux
 vala
@@ -206,6 +232,7 @@ xfce4-screenshooter
 xfce4-session
 xfce4-settings
 xfce4-terminal
+xfce4-whiskermenu-plugin
 xfconf
 xfdesktop
 xfsprogs

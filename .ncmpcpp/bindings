@@ -255,7 +255,7 @@
 #def_key "shift-tab"
 #  previous_screen
 #
-def_key "f1"
+def_key "h"
   show_help
 
 #def_key "1"

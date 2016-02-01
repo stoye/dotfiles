@@ -4,6 +4,7 @@ conky-nvidia
 cower
 fontmatrix-git
 google-chrome-beta
+gpodder3
 granite-bzr
 gringo
 hunspell-en-base
@@ -15,6 +16,8 @@ libindicator-gtk3
 lightdm-webkit-theme-archlinux
 lightdm-webkit2-greeter
 memtest86-efi
+mopidy-beets
+mugshot
 nvm
 opam
 openpht
@@ -22,9 +25,13 @@ paperkey
 powerline-fonts-git
 prelink
 pycharm-community
+python2-mygpoclient
 quimup
 rar
 rave-x-colors
 razercfg
 slack-chat
+slurm
 ttf-weather-icons
+xpenguins
+xscreensaver-arch-logo
