@@ -15,7 +15,7 @@ ZSH_THEME="agnoster"
 alias sudo='sudo '
 alias emacs='emacs -nw'
 alias music='ncmpcpp -p 6601'
-alias hackmusic='ncmpcpp -h hackmedia.local -p 6600'
+alias smeagolmusic='ncmpcpp -h smeagol.local -p 6601'
 
 # SSH ALIASES
 alias ccis='ssh login.ccs.neu.edu'
