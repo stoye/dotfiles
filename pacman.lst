@@ -1,5 +1,6 @@
 abs
 accountsservice
+alsa-utils
 autoconf
 automake
 bash
@@ -22,10 +23,12 @@ cowsay
 cronie
 cryptsetup
 cuetools
+desmume
 device-mapper
 dhcpcd
 dialog
 diffutils
+dmenu
 docbook-xml
 docbook2x
 dosfstools
@@ -59,9 +62,11 @@ gnome-calculator
 gnome-common
 gnome-do
 gnome-doc-utils
+gnome-online-accounts
 go
 gobject-introspection
 gptfdisk
+graphviz
 grep
 groff
 gsmartcontrol
@@ -85,7 +90,9 @@ id3
 id3v2
 iftop
 inetutils
+intellij-idea-community-edition
 intltool
+inxi
 iperf3
 iproute2
 iputils
@@ -98,13 +105,15 @@ keybase
 kid3-qt
 less
 letsencrypt
+lib32-alsa-plugins
 lib32-libxxf86vm
 libcec
-libdbusmenu-glib
-libdbusmenu-gtk3
 libdvdcss
+libgdata
 libgee
+libgphoto2
 libmicrohttpd
+libmtp
 libshairport
 libtool
 libusb-compat
@@ -113,6 +122,7 @@ libxss
 licenses
 lightdm
 linux
+live-media
 logrotate
 lolcat
 lvm2
@@ -150,6 +160,7 @@ openssh
 opus
 p7zip
 pacman
+pass
 patch
 pavucontrol
 pciutils
@@ -179,6 +190,8 @@ python2-requests
 python2-requests-oauthlib
 python2-xdg
 pywebkitgtk
+qt5-quickcontrols
+racket
 re2c
 redshift
 refind-efi
@@ -196,8 +209,11 @@ smartmontools
 snappy
 soundconverter
 speech-dispatcher
+steam
+subversion
 sudo
 swig
+syncthing-gtk
 sysfsutils
 systemd-sysvcompat
 tar
@@ -205,12 +221,14 @@ terminator
 texinfo
 thunar
 thunar-volman
+thunderbird
 tinyxml
 tmux
 transcode
 transmission-cli
 transmission-qt
 tree
+ttf-liberation
 tumbler
 unzip
 usbutils
@@ -223,6 +241,7 @@ webkit2gtk
 wget
 which
 wireless_tools
+x264
 xfce4-appfinder
 xfce4-mixer
 xfce4-notifyd
@@ -240,5 +259,6 @@ xfwm4
 xfwm4-themes
 xorg-xinput
 xterm
+yasm
 zip
 zsh
