@@ -107,11 +107,13 @@ less
 letsencrypt
 lib32-alsa-plugins
 lib32-libxxf86vm
+lib32-util-linux
 libcec
 libdvdcss
 libgdata
 libgee
 libgphoto2
+libkeybinder3
 libmicrohttpd
 libmtp
 libshairport
@@ -130,6 +132,7 @@ m4
 make
 man-db
 man-pages
+mariadb
 mdadm
 memtest86+
 mkvtoolnix-cli

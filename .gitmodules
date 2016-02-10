@@ -16,3 +16,6 @@
 [submodule ".emacs.d/plugins/yaml-mode"]
 	path = .emacs.d/plugins/yaml-mode
 	url = https://github.com/yoshiki/yaml-mode
+[submodule ".emacs.d/plugins/markdown-mode"]
+	path = .emacs.d/plugins/markdown-mode
+	url = https://github.com/jrblevin/markdown-mode
