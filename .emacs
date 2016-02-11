@@ -28,6 +28,10 @@
 (setq auto-mode-alist (cons '("\\.md\\'" . markdown-mode) auto-mode-alist))
 (setq auto-mode-alist (cons '("\\.markdown\\'" . markdown-mode) auto-mode-alist))
 
+;; go mode
+(add-to-list 'load-path "~/.emacs.d/plugins/go-mode")
+(require 'go-mode-autoloads)
+
 ;; jade mode
 (add-to-list 'load-path "~/.emacs.d/vendor/jade-mode")
 (require 'sws-mode)

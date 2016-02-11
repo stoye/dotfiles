@@ -19,3 +19,6 @@
 [submodule ".emacs.d/plugins/markdown-mode"]
 	path = .emacs.d/plugins/markdown-mode
 	url = https://github.com/jrblevin/markdown-mode
+[submodule ".emacs.d/plugins/go-mode"]
+	path = .emacs.d/plugins/go-mode
+	url = https://github.com/dominikh/go-mode.el
