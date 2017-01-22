@@ -16,6 +16,7 @@ alias sudo='sudo '
 alias emacs='emacs -nw'
 alias music='ncmpcpp -p 6601'
 alias elodinmusic='ncmpcpp -h elodin.local -p 6601'
+alias weather='curl wttr.in/indianapolis'
 
 # SSH ALIASES
 alias ccis='ssh login.ccs.neu.edu'
